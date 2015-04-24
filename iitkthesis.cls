@@ -107,8 +107,7 @@
 % -- The thesis office doesn't like thanks on title page.  Put it in
 % -- the acknowledgments.  This is here so you don't have to change
 % -- your titlepage when converting from report style. -> from Purdue, but I
-%        left it here since it seems compatible with UW-Madison, Eric -
-%    Amey - I also left it here as IITB does not say anything about it.
+%        left it here since it seems compatible with UW-Madison, Eric
 %-----------------------------------------------------------------------------
     \def\thanks##1{\typeout{Warning: `thanks' deleted from thesis titlepage.}}
     \let\footnotesize\small \let\footnoterule\relax \setcounter{page}{1}
