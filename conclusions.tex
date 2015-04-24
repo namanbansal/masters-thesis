@@ -1,29 +1,11 @@
 \chapter{Conclusions}
 
-In this thesis, we have presented a new SMT interface called \texttt{z3.rkt},
-which lets Racket programmers interact with an SMT solver programmatically. We
-have demonstrated through examples the simplicity and usefulness of such an
-interaction. The power of \texttt{z3.rkt} comes from the facilities provided
-by Racket to build abstractions on top of the SMT-solving capabilities of Z3.
-From the user's perspective, the integration is seamless and fully
-transparent.
-
 Our implementation is open source and freely available at
 \begin{center}
 \url{http://www.cse.iitk.ac.in/users/karkare/code/z3.rkt/}
 \end{center}
 
 \section{Scope for further work}
-
-\texttt{z3.rkt}, like all large projects, is a work in progress. What has been
-implemented as of the writing of this thesis is a useful subset of Z3
-functionality, but there are several gaps still to be filled:
-
-\begin{itemize}
-\item Supporting more Z3 constructs, including bit-vectors and external theories
-\item Deriving new abstractions guided by practical use cases
-\item Possibly integrating with other SMT solvers
-\end{itemize}
 
 In the long term, we hope the community will find this system useful and will
 contribute to the project to solve large practical problems.
