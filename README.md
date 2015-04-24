@@ -9,4 +9,10 @@ related.tex , conclusions.tex , application.tex , intro.tex , technical.tex -- T
 thesis.tex  -- It is the main file. Puts all the tex files as chapter in your Thesis. 
 
 
+For sharelatex users: change the compiler to XeLatex or LuaLatex.
+others: use makefile
+
+
+
+
 This repo has been forked from https://github.com/sid0/masters-thesis
